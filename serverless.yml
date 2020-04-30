@@ -100,4 +100,4 @@ functions:
 #create our resouces with separate CloudFormation templates
 resources:
   #API Gateway Errors
-  -${file(resources/api-gateway-errors.yml)}
+  - ${file(resources/api-gateway-errors.yml)}
